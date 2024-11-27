@@ -1,0 +1,102 @@
+body{
+    font-family: sans-serif;
+    background-color: #24353F;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+#signup{
+    /* background-color: red; */
+}
+
+#signup h1 ,
+#login h1 {
+    color: #17988D;
+    font-size: 2.5rem;
+}
+
+#signup .box,
+#login .box{
+    width: 60%;
+    margin-inline: auto;
+    margin-top: 4.375rem;
+    background-color: #24353F;
+    padding: 40px;
+    text-align: center;
+    /* border: 2px solid; */
+    box-shadow: 0px 0px 25px 0px black
+}
+
+#signup .content,
+#login .content{
+    position: relative;
+}
+
+#signup .content .toggle-password,
+#login .content .toggle-password-login{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    color: rgb(197, 194, 194);
+    cursor: pointer;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+
+
+#signup .box form input,
+#login .box form input{
+    margin-block: 15px;
+    background-color: transparent;
+    color: white;
+}
+
+#signup .box form input::placeholder,
+#login .box form input::placeholder{
+    color: rgb(175, 172, 172);
+}
+
+#signup .box p a,
+#login .box p a {
+    color: #17988D;
+}
+
+#signup .box form button:hover,
+#login .box form button:hover{
+    color: white;
+}
+
+#home {
+    height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#home nav {
+    box-shadow: 0 0 15px 0 black;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home .box {
+    background-color: #24353F;
+    padding-block: 40px;
+    width: 60%;
+    color: #B3C8CF;
+    text-align: center;
+    box-shadow: 0 0 15px 0 black;
+}

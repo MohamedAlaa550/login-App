@@ -1,0 +1,70 @@
+
+<!-- html code  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login App</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section id="signup" class="">
+        <div class="box">
+            <h1>Smart Login System</h1>
+            <form action="">
+                <input type="text" name="name" id="signupName" class="form-control" placeholder="Enter Your Name">
+                <p id="msgName" class=" alert alert-danger d-none">Name must be 3 characters at least</p>
+                <input type="email" name="email" id="signupEmail" class="form-control" placeholder="Enter Your Email">
+                <p id="msgEmail" class=" alert alert-danger d-none">email must be valid one !</p>
+                <div class="content">
+                    <input type="password" name="pass" id="signupPassword" class="form-control"
+                        placeholder="Enter Your Password">
+                    <i class="fa fa-eye toggle-password"></i>
+                </div>
+                <p id="msgPassword" class=" alert alert-danger d-none">Password must start with capital character and
+                    includes numbers with special characters</p>
+
+                <button id="signupBtn" class="btn btn-outline-info mb-3 d-block w-100">Sign Up</button>
+            </form>
+            <p class="lead text-white">You have an account? <a href="">Signin</a></p>
+        </div>
+    </section>
+
+    <section id="login" class="d-none">
+        <div class="box">
+            <h1>Smart Login System</h1>
+            <form action="">
+                <input type="email" name="email" id="loginEmail" class="form-control" placeholder="Enter Your Email">
+               <div class="content">
+                <input type="password" name="pass" id="loginPassword" class="form-control"
+                placeholder="Enter Your Password">
+                <i class="fa fa-eye toggle-password-login"></i>
+            </div>
+                <button id="loginBtn" class="btn btn-outline-info mb-3 d-block w-100">login</button>
+            </form>
+            <p class="lead text-white">You have an account? <a href="">Signup</a></p>
+        </div>
+    </section>
+
+    <section id="home" class="d-none">
+        <nav class="fixed-top">
+            <a href="">SMART LOGIN</a>
+            <button class="btn btn-outline-danger">Logout</button>
+        </nav>
+
+        <div class="box">
+            <h1></h1>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
